@@ -1,0 +1,30 @@
+[
+	{
+		"country": "Aruba",
+		"capital": "Oranjestad",
+		"region": "Americas",
+		"subregion": "Caribbean",
+		"latlng": [12.5, -69.96666666]
+	},
+	{
+		"country": "Islamic Republic of Afghanistan",
+		"capital": "Kabul",
+		"region": "Asia",
+		"subregion": "Southern Asia",
+		"latlng": [33, 65]
+	},
+	{
+		"country": "Republic of Angola",
+		"capital": "Luanda",
+		"region": "Africa",
+		"subregion": "Middle Africa",
+		"latlng": [-12.5, 18.5]
+	},
+	{
+		"country": "Anguilla",
+		"capital": "The Valley",
+		"region": "Americas",
+		"subregion": "Caribbean",
+		"latlng": [18.25, -63.16666666]
+	}
+]

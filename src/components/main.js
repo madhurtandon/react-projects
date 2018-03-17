@@ -16,6 +16,8 @@ class Main extends Component {
             <h1 className = "contentTitle mainTitle">Examples</h1>
             <div className="projects">
               <Link to="/realtime-search">Real-time search</Link>
+              <br/><br/>
+              <Link to="/multi-search">Multi search</Link>
             </div>
           </div>
         </div>

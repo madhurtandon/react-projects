@@ -5,7 +5,7 @@
     padding: 20px;
   }
   h1 {
-    font-size: 50px;
+    font-size: 30px;
     text-decoration: underline;
   }
   .about {
@@ -30,9 +30,10 @@
   input {
     border: 1px solid white;
     padding: 5px;
-    width: 350px;
+    width: 150;
     height: 25px;
     font-size: 25px;
+    margin-left: 25px;
   }
   input:focus {
     outline: none;

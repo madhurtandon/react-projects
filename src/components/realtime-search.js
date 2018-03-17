@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import sample from '../sample.json';
+import sample from '../data/realtime-search.json';
 import '../stylesheets/realtime-search.css';
 
 class RealtimeSearch extends Component {
@@ -38,7 +38,7 @@ class List extends Component {
 
   renderList(list) {
     return list.map(function(arrayItem) {
-      return <li>{arrayItem}</li>;
+      return <li key={arrayItem}>{arrayItem}</li>;
     });
   }
 

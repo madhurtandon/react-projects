@@ -17,6 +17,9 @@ class Projects extends Component {
           <li>
             <Link to="/to-do">To Do App</Link>
           </li>
+          <li>
+            <Link to="/bar-chart">Bar chart</Link>
+          </li>
         </ul>
       </div>
     );

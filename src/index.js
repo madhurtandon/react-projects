@@ -7,6 +7,7 @@ import Main from './components/main';
 import RealtimeSearch from './components/realtime-search';
 import MultiSearch from './components/multi-search';
 import ToDo from './components/to-do';
+import BarChart from './components/bar-chart';
 
 function Project() {
     return (
@@ -16,6 +17,7 @@ function Project() {
                 <Route path="/realtime-search" component={RealtimeSearch} />
                 <Route path="/multi-search" component={MultiSearch} />
                 <Route path="/to-do" component={ToDo} />
+                <Route path="/bar-chart" component={BarChart} />
             </div>
         </Router>
     );

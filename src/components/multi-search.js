@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import sample from '../data/multi-search.json';
-import '../stylesheets/multi-search.css';
+import '../stylesheets/main.css';
 
 class MultiSearch extends Component {
     constructor(props) {

@@ -1,0 +1,204 @@
+body {
+	background: rgb(30,30,30);
+    font-family: proxima-nova, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	text-align: center;
+	color: rgb(114, 223, 250);
+	width: 1200px;
+	padding-bottom: 25px;
+}
+.sidebar {
+	position: fixed;
+	left: 0;
+	width: 400px;
+	height: 100%;
+	background: rgb(30,30,30);
+	border-right: 1px solid white;
+	padding-top: 5px;
+}
+img {
+	width: 200px;
+	margin-top: 25px;
+}
+h1 {
+	font-size: 50px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.mainTitle {
+	margin-bottom: 10px;
+}
+.projectList {
+	position: absolute;
+	left: 430px;
+	width: 700px;
+	padding-top: 15px;
+	background: rgb(30,30,30);
+	z-index: 1;
+}
+.projects {
+	font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  text-align: left;
+	padding-right: 5px;
+}
+.projectList a, .projectList a:visited {
+	color: white;
+	text-decoration: none;
+}
+.projectList a:hover {
+	text-decoration: underline;
+	color: rgb(114, 223, 250);
+}
+.contentTitle {
+	text-align: left;
+}
+.title {
+    margin-left: 25px;
+  }
+  table {
+    margin-top: 15px;
+    margin-left: 25px;
+  }
+  th {
+    text-align: left;
+    color: #ff7473;
+    border-bottom: 1px solid #ffc952;
+    font-size: 18px;
+  }
+  td {
+    color: #47b8e0;
+  }
+  .country {
+    width: 350px;
+  }
+  .capital {
+    width: 200px;
+  }
+  .region {
+    width: 200px;
+  }
+  .subregion {
+    width: 200px;
+  }
+  .lat, .lon {
+    width: 100px;
+  }
+  .search {
+    background: rgb(30,30,30);
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  .about {
+    font-size: 25px;
+  }
+  .projects ul {
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 25px;
+    padding-left: 50px;
+    padding-top: 25px;
+    background: rgb(30,30,30);
+    font-size: 20px;
+  }
+.realtime-search ul {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 25px;
+    padding-left: 137px;
+    padding-top: 25px;
+    background: rgb(30,30,30);
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  input {
+    border: 1px solid white;
+    padding: 5px;
+    width: 150;
+    height: 25px;
+    font-size: 25px;
+    margin-left: 25px;
+  }
+  input:focus {
+    outline: none;
+  }
+  .newTask {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  button {
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+  }
+  
+  .enter {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #1ec0ff;
+    font-size: 25px;
+    padding: 8px;
+  }
+  
+  .enter:hover {
+    cursor: pointer;
+  }
+  .taskTable {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .taskNumber {
+    text-align: right;
+  }
+  
+  .taskItem {
+    text-align: left;
+    padding-left: 25px;
+  }
+  .filterItem {
+    font-size: 20px;
+  }
+  .remove {
+    background: #f9d423;
+  }
+  
+  .remove:hover {
+    cursor: pointer;
+    color: #fc913a;
+    background: rgb(114, 223, 250);
+  }
+  .clear {
+    margin-top: 15px;
+    margin-right: 8px;
+    font-size: 25px;
+    padding: 10px;
+    background: #f9d423;
+    margin-bottom: 20px;
+  }
+  
+  .reset {
+    margin-top: 15px;
+    margin-left: 8px;
+    font-size: 25px;
+    padding: 10px;
+    background: #f9d423;
+    margin-bottom: 20px;
+  }
+  
+  .clear:hover, .reset:hover {
+    cursor: pointer;
+    background: #1F2124;
+    color: #1ec0ff;
+  }
